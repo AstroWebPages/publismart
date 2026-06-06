@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PubliSmart — Imprenta Digital & Fábrica de Rótulos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">PS</span>
+        <span class="logo-text">PubliSmart</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <a href="contacto.html" class="btn-nav">Cotizar ahora</a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="hero-blob b1"></div>
+      <div class="hero-blob b2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">✦ El Salvador · Impresión & Rótulos</div>
+      <h1 class="hero-title">
+        Imprenta Digital<br />
+        <em>&amp; Fábrica de</em><br />
+        <span class="highlight">Rótulos</span>
+      </h1>
+      <p class="hero-sub">Camisas, gorras, banners, sellos, tarjetas y mucho más. Todo personalizado, todo con la calidad de PubliSmart.</p>
+      <div class="hero-cta">
+        <a href="productos.html" class="btn-primary">Ver productos</a>
+        <a href="servicios.html" class="btn-ghost">Nuestros servicios</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><strong class="count" data-target="1200">0</strong><span>Clientes</span></div>
+        <div class="hstat"><strong class="count" data-target="8">0</strong><span>Años de experiencia</span></div>
+        <div class="hstat"><strong class="count" data-target="50">0</strong><span>Categorías</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <img src="https://picsum.photos/seed/print1/680/520" alt="Trabajos impresos PubliSmart" />
+        <div class="hero-chip chip1">🖨️ Impresión HD</div>
+        <div class="hero-chip chip2">⚡ Entrega rápida</div>
+      </div>
+    </div>
+    <a href="#categorias" class="scroll-hint">
+      <span>Explorar</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- CATEGORY STRIP -->
+  <section class="categories" id="categorias">
+    <div class="container">
+      <div class="section-label">Lo que hacemos</div>
+      <h2 class="section-title">Servicios <span>destacados</span></h2>
+      <div class="cat-grid">
+        <a href="servicios.html#imprenta" class="cat-card" style="--accent:#3B82F6">
+          <div class="cat-icon">🖨️</div>
+          <h3>Imprenta Digital</h3>
+          <p>Tarjetas, flyers, brochures, afiches y más en alta resolución.</p>
+          <span class="cat-arrow">→</span>
+        </a>
+        <a href="servicios.html#rotulos" class="cat-card" style="--accent:#0EA5E9">
+          <div class="cat-icon">🪧</div>
+          <h3>Fábrica de Rótulos</h3>
+          <p>Rótulos luminosos, vinil, letras 3D, señalización corporativa.</p>
+          <span class="cat-arrow">→</span>
+        </a>
+        <a href="servicios.html#textil" class="cat-card" style="--accent:#6366F1">
+          <div class="cat-icon">👕</div>
+          <h3>Textil Personalizado</h3>
+          <p>Camisas, gorras, polos, uniformes con tu logo o diseño.</p>
+          <span class="cat-arrow">→</span>
+        </a>
+        <a href="servicios.html#promo" class="cat-card" style="--accent:#14B8A6">
+          <div class="cat-icon">🎁</div>
+          <h3>Artículos Promocionales</h3>
+          <p>Tazas, lapiceros, libretas, llaveros y gadgets con branding.</p>
+          <span class="cat-arrow">→</span>
+        </a>
+        <a href="servicios.html#sellos" class="cat-card" style="--accent:#F59E0B">
+          <div class="cat-icon">🔖</div>
+          <h3>Sellos & Etiquetas</h3>
+          <p>Sellos automáticos, etiquetas adhesivas y stickers personalizados.</p>
+          <span class="cat-arrow">→</span>
+        </a>
+        <a href="servicios.html#display" class="cat-card" style="--accent:#EC4899">
+          <div class="cat-icon">🖼️</div>
+          <h3>Display & Exhibición</h3>
+          <p>Rollup, backdrops, isletas, display de acrílico y POP material.</p>
+          <span class="cat-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE STRIP -->
+  <section class="showcase">
+    <div class="showcase-track" id="showcaseTrack">
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps1/340/240" alt="Trabajo 1"/><span>Rótulo luminoso</span></div>
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps2/340/240" alt="Trabajo 2"/><span>Camisas corporativas</span></div>
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps3/340/240" alt="Trabajo 3"/><span>Tarjetas de presentación</span></div>
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps4/340/240" alt="Trabajo 4"/><span>Gorras bordadas</span></div>
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps5/340/240" alt="Trabajo 5"/><span>Branding completo</span></div>
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps6/340/240" alt="Trabajo 6"/><span>Banner gran formato</span></div>
+      <!-- duplicate for infinite loop -->
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps1/340/240" alt="Trabajo 1"/><span>Rótulo luminoso</span></div>
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps2/340/240" alt="Trabajo 2"/><span>Camisas corporativas</span></div>
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps3/340/240" alt="Trabajo 3"/><span>Tarjetas de presentación</span></div>
+      <div class="showcase-item"><img src="https://picsum.photos/seed/ps4/340/240" alt="Trabajo 4"/><span>Gorras bordadas</span></div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why">
+    <div class="container why-inner">
+      <div class="why-text">
+        <div class="section-label">¿Por qué elegirnos?</div>
+        <h2 class="section-title">Calidad que <span>se nota</span></h2>
+        <p class="why-desc">En PubliSmart combinamos tecnología de impresión de última generación con un equipo creativo comprometido. Cada pedido es tratado con la atención que su marca merece.</p>
+        <ul class="why-list">
+          <li><span class="check">✓</span> Materiales premium y tintas resistentes</li>
+          <li><span class="check">✓</span> Diseño incluido sin costo extra</li>
+          <li><span class="check">✓</span> Tiempos de entrega cumplidos</li>
+          <li><span class="check">✓</span> Cotización gratuita en minutos</li>
+          <li><span class="check">✓</span> Atención personalizada y seguimiento</li>
+        </ul>
+        <a href="nosotros.html" class="btn-primary">Conoce nuestro equipo</a>
+      </div>
+      <div class="why-media">
+        <img src="https://picsum.photos/seed/team22/560/480" alt="Equipo PubliSmart" class="why-img" />
+        <div class="why-badge">
+          <strong>+1,200</strong>
+          <span>Clientes satisfechos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section" id="stats">
+    <div class="container stats-grid">
+      <div class="stat-box">
+        <strong class="count" data-target="1200">0</strong>
+        <span>Clientes atendidos</span>
+      </div>
+      <div class="stat-box">
+        <strong class="count" data-target="8">0</strong>
+        <span>Años en el mercado</span>
+      </div>
+      <div class="stat-box">
+        <strong class="count" data-target="15000">0</strong>
+        <span>Proyectos completados</span>
+      </div>
+      <div class="stat-box">
+        <strong class="count" data-target="50">0</strong>
+        <span>Categorías de producto</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-label">Testimonios</div>
+      <h2 class="section-title">Lo que dicen <span>nuestros clientes</span></h2>
+      <div class="testi-slider" id="testiSlider">
+        <div class="testi-track" id="testiTrack">
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <p>"Encargué 200 camisas para mi empresa y quedaron perfectas. La calidad del bordado es excelente y llegaron a tiempo para el evento."</p>
+            <div class="testi-author"><img src="https://picsum.photos/seed/u1/48/48" alt="Carlos M." /><div><strong>Carlos Martínez</strong><span>Gerente, Constructora Alfa</span></div></div>
+          </div>
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <p>"El rótulo luminoso de mi negocio quedó increíble. El equipo de PubliSmart me asesoró en el diseño y el resultado superó mis expectativas."</p>
+            <div class="testi-author"><img src="https://picsum.photos/seed/u2/48/48" alt="Ana R." /><div><strong>Ana Rodríguez</strong><span>Propietaria, Café Central</span></div></div>
+          </div>
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <p>"Rápidos, profesionales y con precios competitivos. Ya les hice 5 pedidos y siempre me atienden con la misma calidad y cordialidad."</p>
+            <div class="testi-author"><img src="https://picsum.photos/seed/u3/48/48" alt="Luis P." /><div><strong>Luis Pacheco</strong><span>Director de Marketing, TechSV</span></div></div>
+          </div>
+          <div class="testi-card">
+            <div class="stars">★★★★★</div>
+            <p>"Necesitaba material para una feria en 48 horas y PubliSmart lo hizo posible. Banners, brochures y tarjetas, todo en tiempo récord."</p>
+            <div class="testi-author"><img src="https://picsum.photos/seed/u4/48/48" alt="María F." /><div><strong>María Flores</strong><span>Emprendedora, BellaCraft</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-dots" id="testiDots">
+        <button class="dot active" data-idx="0"></button>
+        <button class="dot" data-idx="1"></button>
+        <button class="dot" data-idx="2"></button>
+        <button class="dot" data-idx="3"></button>
+      </div>
+      <div class="testi-nav">
+        <button class="testi-btn" id="testiPrev">←</button>
+        <button class="testi-btn" id="testiNext">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div>
+        <h2>¿Listo para tu próximo proyecto?</h2>
+        <p>Cotiza gratis en minutos. Sin compromiso.</p>
+      </div>
+      <a href="contacto.html" class="btn-white">Solicitar cotización →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">PS</span>
+          <span class="logo-text">PubliSmart</span>
+        </a>
+        <p>Imprenta Digital & Fábrica de Rótulos. Calidad, creatividad y entrega a tiempo.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.556 4.121 1.526 5.854L.057 23.882l6.174-1.619A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.906 0-3.68-.516-5.203-1.413l-.373-.222-3.664.96.976-3.568-.243-.388A9.953 9.953 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.28 6.28 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V9.17a8.16 8.16 0 004.77 1.52V7.25a4.85 4.85 0 01-1-.56z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Páginas</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="servicios.html#imprenta">Imprenta Digital</a></li>
+          <li><a href="servicios.html#rotulos">Fábrica de Rótulos</a></li>
+          <li><a href="servicios.html#textil">Textil Personalizado</a></li>
+          <li><a href="servicios.html#promo">Artículos Promo</a></li>
+          <li><a href="servicios.html#sellos">Sellos & Etiquetas</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <p>📍 San Salvador, El Salvador</p>
+        <p>📞 <a href="tel:+50312345678">+503 1234-5678</a></p>
+        <p>✉️ <a href="mailto:info@publismart.sv">info@publismart.sv</a></p>
+        <p>🕐 Lun–Vie 8am–6pm · Sáb 8am–12pm</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 PubliSmart. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-top" id="backTop" aria-label="Volver arriba">↑</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
